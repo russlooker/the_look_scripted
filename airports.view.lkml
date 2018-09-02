@@ -3,25 +3,25 @@ sql_table_name: `airports` ;;
 
 dimension: act_date {
     sql: ${TABLE}.`act_date` ;;
-    type: number
+    type: string
 }
 
     
 dimension: aero_cht {
     sql: ${TABLE}.`aero_cht` ;;
-    type: number
+    type: string
 }
 
     
 dimension: c_ldg_rts {
     sql: ${TABLE}.`c_ldg_rts` ;;
-    type: number
+    type: string
 }
 
     
 dimension: cbd_dir {
     sql: ${TABLE}.`cbd_dir` ;;
-    type: number
+    type: string
 }
 
     
@@ -33,37 +33,37 @@ dimension: cbd_dist {
     
 dimension: cert {
     sql: ${TABLE}.`cert` ;;
-    type: number
+    type: string
 }
 
     
 dimension: city {
     sql: ${TABLE}.`city` ;;
-    type: number
+    type: string
 }
 
     
 dimension: cntl_twr {
     sql: ${TABLE}.`cntl_twr` ;;
-    type: number
+    type: string
 }
 
     
 dimension: code {
     sql: ${TABLE}.`code` ;;
-    type: number
+    type: string
 }
 
     
 dimension: county {
     sql: ${TABLE}.`county` ;;
-    type: number
+    type: string
 }
 
     
 dimension: cust_intl {
     sql: ${TABLE}.`cust_intl` ;;
-    type: number
+    type: string
 }
 
     
@@ -75,37 +75,37 @@ dimension: elevation {
     
 dimension: faa_dist {
     sql: ${TABLE}.`faa_dist` ;;
-    type: number
+    type: string
 }
 
     
 dimension: faa_region {
     sql: ${TABLE}.`faa_region` ;;
-    type: number
+    type: string
 }
 
     
 dimension: fac_type {
     sql: ${TABLE}.`fac_type` ;;
-    type: number
+    type: string
 }
 
     
 dimension: fac_use {
     sql: ${TABLE}.`fac_use` ;;
-    type: number
+    type: string
 }
 
     
 dimension: fed_agree {
     sql: ${TABLE}.`fed_agree` ;;
-    type: number
+    type: string
 }
 
     
 dimension: full_name {
     sql: ${TABLE}.`full_name` ;;
-    type: number
+    type: string
 }
 
     
@@ -117,7 +117,7 @@ dimension: id {
     
 dimension: joint_use {
     sql: ${TABLE}.`joint_use` ;;
-    type: number
+    type: string
 }
 
     
@@ -133,33 +133,27 @@ dimension: longitude {
 }
 
     
-dimension: major {
-    sql: ${TABLE}.`major` ;;
-    type: number
-}
-
-    
 dimension: mil_rts {
     sql: ${TABLE}.`mil_rts` ;;
-    type: number
+    type: string
 }
 
     
 dimension: own_type {
     sql: ${TABLE}.`own_type` ;;
-    type: number
+    type: string
 }
 
     
 dimension: site_number {
     sql: ${TABLE}.`site_number` ;;
-    type: number
+    type: string
 }
 
     
 dimension: state {
     sql: ${TABLE}.`state` ;;
-    type: number
+    type: string
 }
 
 }
