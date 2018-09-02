@@ -1,4 +1,4 @@
-view:  {
+view: airports {
 sql_table_name: `airports` ;;
 
 dimension: cbd_dist {
@@ -6,13 +6,13 @@ dimension: cbd_dist {
     type: number
 }
 
-    
+
 dimension: elevation {
     sql: ${TABLE}.`elevation` ;;
     type: number
 }
 
-    
+
 dimension: id {
     sql: ${TABLE}.`id` ;;
     type: number
