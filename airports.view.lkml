@@ -1,5 +1,5 @@
 view: airports {
-sql_table_name: `airports` ;;
+sql_table_name: `flightstats`.`airports` ;;
 
 dimension: act_date {
     sql: ${TABLE}.`act_date` ;;
