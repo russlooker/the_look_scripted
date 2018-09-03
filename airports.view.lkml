@@ -1,5 +1,5 @@
 view: airports {
-sql_table_name: flightstats.`airports` ;;
+sql_table_name: `airports` ;;
 
 dimension: act_date {
     sql: ${TABLE}.`act_date` ;;
@@ -77,7 +77,7 @@ dimension: cust_intl {
     hidden: yes
 }
 
-
+    
 dimension: elevation {
     sql: ${TABLE}.`elevation` ;;
     type: number
@@ -126,7 +126,7 @@ dimension: full_name {
     hidden: yes
 }
 
-
+    
 dimension: id {
     sql: ${TABLE}.`id` ;;
     type: number
