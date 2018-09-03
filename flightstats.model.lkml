@@ -1,5 +1,5 @@
 connection: "thelook"
-include: "airports.view.lkml"
+include: "*.view.lkml"
 
 
 
