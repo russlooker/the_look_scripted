@@ -5,6 +5,6 @@ include: "airports.view.lkml"
 
 
 
-explore: airports {
+explore: zipcodes {
     
 }
