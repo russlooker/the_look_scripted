@@ -40,6 +40,11 @@ dimension: cert {
 dimension: city {
     sql: ${TABLE}.`city` ;;
     type: string
+    link: {
+    url: "/dashboards/1"
+    label: "Go Home"
+    icon_url: "https://looker.com/favicon.ico"
+    }
 }
 
     
