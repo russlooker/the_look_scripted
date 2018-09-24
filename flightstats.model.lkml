@@ -9,3 +9,8 @@ include: "airports.view.lkml"
 explore: zipcodes {
     
 }
+
+
+explore: airports {
+    
+}
