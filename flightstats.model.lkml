@@ -1,5 +1,6 @@
 connection: "thelook"
-include: "*.view.lkml"
+include: "zipcodes.view.lkml"
+include: "airports.view.lkml"
 
 
 
